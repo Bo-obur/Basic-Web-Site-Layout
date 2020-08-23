@@ -1,0 +1,44 @@
+<svg id="graph" xmlns="http://www.w3.org/2000/svg" width="350" height="350">
+    <!-- Rectangle piece-->
+    <rect x="175" y="175" width="140" height="70" fill="lightblue"/>
+    <!-- Triangle piece -->
+    <polygon points="175,175 175,105 315,175" fill="lightblue"/>
+    <!-- 1/4 of Circle piece (sector) -->
+    <path d="M 175 175 L105 175 A 70 70 0 0 0 175 245" fill="lightblue"/>
+    <!-- Axes -->
+    <line x1="0" y1="175" x2="350" y2="175" stroke="black"/>
+    <line x1="175" y1="0" x2="175" y2="350" stroke="black"/>
+    <!-- Axe of X -->
+    <line x1="172" y1="8" x2="175" y2="0" stroke="black"/>
+    <line x1="175" y1="0" x2="178" y2="8" stroke="black"/>
+    <!-- Axe of Y -->
+    <line x1="342" y1="172" x2="350" y2="175" stroke="black"/>
+    <line x1="350" y1="175" x2="342" y2="178" stroke="black"/>
+    <!-- Points in axe x (x < 0) -->
+    <line x1="35" y1="172" x2="35" y2="178" stroke="black"/>
+    <line x1="105" y1="172" x2="105" y2="178" stroke="black"/>
+    <!-- Points in axe x (x > 0) -->
+    <line x1="245" y1="172" x2="245" y2="178" stroke="black"/>
+    <line x1="315" y1="172" x2="315" y2="178" stroke="black"/>
+    <!-- Points in axe y (y > 0) -->
+    <line x1="172" y1="35" x2="178" y2="35" stroke="black"/>
+    <line x1="172" y1="105" x2="178" y2="105" stroke="black"/>
+    <!-- Points in axe y (y < 0) -->
+    <line x1="172" y1="245" x2="178" y2="245" stroke="black"/>
+    <line x1="172" y1="315" x2="178" y2="315" stroke="black"/>
+    <!-- Text in axes -->
+    <text x="340" y="170">X</text>
+    <text x="180" y="11">Y</text>
+    <!-- Text in axe x (x < 0) -->
+    <text x="28" y="170">-R</text>
+    <text x="95" y="170">-R/2</text>
+    <!-- Text in axe x (x > 0) -->
+    <text x="240" y="170">R/2</text>
+    <text x="310" y="170">R</text>
+    <!-- Text in axe y (y > 0) -->
+    <text x="180" y="38">R</text>
+    <text x="180" y="108">R/2</text>
+    <!-- Text in axe y (y < 0) -->
+    <text x="180" y="248">-R/2</text>
+    <text x="180" y="318">-R</text>
+</svg>

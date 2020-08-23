@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="10">
+    <line x1="0" y1="3" x2="40" y2="3" stroke="lightblue"/>
+    <line x1="40" y1="3" x2="160" y2="3" stroke="blue"/>
+    <line x1="160" y1="3" x2="200" y2="3" stroke="lightblue"/>
+
+    <circle r="3" cx="100" cy="3" fill="red" />
+</svg>

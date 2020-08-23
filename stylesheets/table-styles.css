@@ -1,0 +1,118 @@
+
+/*** Table styles ***/
+
+.table {
+    padding: 32px 0;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.table-inner {
+    margin: 0 15px;
+    padding: 3px 3px 8px 3px;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    border: 1px solid #c0c0c0;
+}
+
+.table-title {
+    text-align: center;
+}
+
+.table-inner h1 {
+    /*font-family: "Varela Round", sans-serif;*/
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#tabular {
+    width: 100%;
+    border: 1px solid silver;
+    /*border-spacing: 1px;*/
+    border-collapse: collapse;
+    background-color: #fff;
+    overflow: hidden;
+    font-family: Verdana, Arial, sans-serif;
+    /*position: relative;*/
+}
+#tabular > * {
+    /*position: relative;*/
+}
+
+#tabular thead tr {
+    height: 34px;
+    /*background-color: #fafafa;*/
+}
+
+#tabular tbody tr {
+    height: 32px;
+    text-align: center;
+}
+
+#tabular td, #tabular th {
+    border: 1px solid silver;
+}
+
+#tabular tbody tr:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+#tabular tbody tr:hover {
+    /*font-weight: bold;*/
+    background-color: #dcf1ff;
+    cursor: pointer;
+}
+
+#tabular tbody tr:first-child {
+    border-top: 3px solid silver;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 110px;
+}
+
+.column4 {
+    width: 120px;
+    /*font-weight: bold;*/
+}
+
+tbody .column4 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.column5 {
+    width: 140px;
+}
+
+.column6 {
+    width: 170px;
+}
+
+#clear {
+    width: 20px;
+    float: left;
+    padding: 4px;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid silver;
+    border-left: none;
+    transition: 250ms;
+    overflow: hidden;
+}
+
+#clear:hover {
+    width: 55px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 3px 3px lightblue;
+    /*border-color: blue;*/
+}
+
+#clear:focus {
+    outline: none;
+}

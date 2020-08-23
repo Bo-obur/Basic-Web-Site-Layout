@@ -1,0 +1,32 @@
+
+/*** Core styles ***/
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    top: 0;
+    font-family: "Monospaced", sans-serif;
+    font-size: 14px;
+    background-color: #fdfdfd;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.sticky {
+    top: 0;
+    width: 100%;
+    position: fixed;
+}

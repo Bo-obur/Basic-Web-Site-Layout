@@ -1,0 +1,163 @@
+
+/*** Form styles ***/
+
+.form {
+    margin-top: 50px;
+    /*background-color: #fcfcfc;*/
+}
+
+.form-wrapper {
+    padding: 42px 5px;
+    border-bottom: 1px solid silver;
+}
+
+.graph-field {
+    float: left;
+    padding: 10px;
+    margin: 0 0 0 10px;
+    border-radius: 8px;
+    border: 1px solid silver;
+    background-color: #f9fcfd;
+}
+
+.right-side-field {
+    /*width: 55%;*/
+    float: right;
+    padding: 10px 0 10px 40px;
+}
+
+.request-field-title {
+    margin: 30px auto;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.request-field-left {
+    float: left;
+}
+
+#x-label {
+    display: block;
+    text-align: center;
+}
+
+.x-button {
+    width: 44px;
+    height: 44px;
+    margin: 5px;
+    font-family: Verdana, Arial, sans-serif;
+    border-radius: 22px;
+    border: 1px solid silver;
+    background-color: #fff;
+    color: #7c7c7c;
+    transition: 0.2s;
+    box-shadow: 0 0 3px silver;
+}
+
+.x-button:hover {
+    color: black;
+    background-color: #e1e9ff;
+    /*box-shadow: 0 0 0 grey;*/
+}
+
+.x-button:focus {
+    outline: none;
+}
+
+.active {
+    background-color: #e5efff;
+    box-shadow: 0 0 0 grey;
+    color: black;
+}
+
+.request-field-right {
+    float: right;
+}
+
+.field-outer {
+    padding: 10px 10px 5px 25px;
+    /*text-align: center;*/
+}
+
+.field-outer label {
+    padding: 5px 10px;
+    display: block;
+}
+
+.field-outer svg {
+    margin: 0 10px;
+    /*box-shadow: 0 0 3px silver;*/
+}
+
+.field-outer svg circle {
+    transition: 0.5s;
+}
+
+.request-field-right input[type="text"] {
+    display: block;
+    width: 220px;
+    height: 32px;
+    padding: 0 10px;
+    margin: 6px auto 0;
+    /*border: none;*/
+    border: 1px solid silver;
+    border-radius: 16px;
+    transition: 0.2s;
+}
+
+.request-field-right input[type="text"]:hover,
+.request-field-right input[type="text"]:focus {
+    /*border: 1px solid #7d7dff;*/
+    box-shadow: 0 0 4px #b8b8b8;
+    outline: none;
+}
+
+.err {
+    color: #ff0000;
+    background-color: #fff5f5;
+    /*box-shadow: 0 0 5px #ff0000;*/
+}
+
+.succ {
+    background-color: #ecf1ff;
+}
+
+.submit-button {
+    padding: 6px 56px;
+    margin: 16px auto;
+    display: block;
+    font-size: 14px;
+    transition: 0.3s;
+    border: 1px solid #82bdff;
+    border-radius: 12px;
+    color: white;
+    background-color: #65adfd;
+}
+
+.able {
+    background-color: #348df3;
+}
+
+.able:hover {
+    border: 1px solid #419fff;
+    background-color: #0180de;
+}
+
+.submit-button:focus, .able {
+    outline: none;
+}
+
+.coor-point {
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    /*font-weight: bold;*/
+}
+
+.axe {
+    font-size: 14px;
+}
+
+#dot {
+    transition: 1s;
+}

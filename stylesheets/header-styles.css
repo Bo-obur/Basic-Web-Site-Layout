@@ -1,0 +1,61 @@
+
+/*** Header styles ***/
+
+.header {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.header-wrapper {
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid silver;
+}
+
+#link-to-se {
+    font-family: "Faster One", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 550px;
+    color: #01018d;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.header-menu-lister {
+    display: block;
+    float: left;
+    margin-right: 16px;
+}
+
+.menu #separator {
+    transform: scaleY(1.5);
+}
+
+#link-to-git {
+    color: #000;
+    padding: 4px 14px 4px 14px;
+    font-family: "Varela Round", sans-serif;
+    text-decoration: none;
+    border: 1px solid #b1b1b1;
+    border-radius: 15px;
+    transition: 0.2s;
+    /*background-color: #e2e2e2;*/
+    /*box-shadow: 1px 1px 1px #7e7e7e;*/
+}
+
+
+#link-to-git:hover {
+    background-color: #e4e4e4;
+}
+
+#link-to-git img {
+    width: 12px;
+}
