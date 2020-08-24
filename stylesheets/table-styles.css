@@ -102,7 +102,7 @@ tbody .column4 {
     border-radius: 0 15px 15px 0;
     border: 1px solid silver;
     border-left: none;
-    transition: 250ms;
+    transition: 150ms;
     overflow: hidden;
 }
 
@@ -110,7 +110,8 @@ tbody .column4 {
     width: 55px;
     letter-spacing: 1px;
     box-shadow: 0 0 3px 3px lightblue;
-    /*border-color: blue;*/
+    background-color: #4086ff;
+    color: white;
 }
 
 #clear:focus {
